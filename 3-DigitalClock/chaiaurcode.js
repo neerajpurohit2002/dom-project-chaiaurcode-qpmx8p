@@ -1,9 +1,5 @@
-const clock = document.getElementById('clock');
+document.getElementById('clock')
+//document.querySelector('#clock')
 
-
-
-setInterval(function(){
-  let date = new Date();
-  const data = date.toLocaleTimeString();
-  clock.innerHTML = data;
-},1000)
+let date = new Date();
+console.log(date);
